@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
+```
 Name : G Keerthana
 Roll no: 21223240045
 Date of experiment : 3.3.25
-
+```
 
 
 
@@ -163,7 +164,7 @@ MOV [SI+6],AX
 ret
 ```
 
-## OUTPUT
+## Output
 
 
 
