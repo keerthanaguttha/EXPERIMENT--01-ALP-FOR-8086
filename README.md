@@ -1,8 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
 ```
-Name : G Keerthana
-Roll no: 21223240045
-Date of experiment : 3.3.25
+Name    : Guttha Keerthana
+Roll no : 212223240045
+Date of experiment : 03-03-2025
 ```
 
 
@@ -79,9 +79,9 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
 ```
 org 100h
+
 MOV CL,00H
 MOV AL,[4200H]
 MOV BL,[4201H]
@@ -90,62 +90,74 @@ JNC L
 INC CL
 L:MOV [4202H],AL
 MOV [4203H],CL
+
+
+
 ret
+
 ```
 
-## Output  
-![ADD PMC](https://github.com/user-attachments/assets/b90af333-def5-4094-9879-db5984dcf956)
+## Output 
+![q85mxv1i](https://github.com/user-attachments/assets/eb3191d4-9a2d-4d06-941c-2f992a61b5e7)
+
+
 
  
 ## Subtraction   of 8 bit numbers  ALP 
- ```
+```
 org 100h
+
+
 MOV AL,[4300H]
 MOV BL,[4301H]
 SUB AL,BL
 MOV [4302H],AL
+
+
+
 ret
 ```
-
+ 
 ## Output  
+![image](https://github.com/user-attachments/assets/cb01bc44-0515-44af-86fb-d76460b17d7e)
 
-![SUB OP](https://github.com/user-attachments/assets/e0875b8c-b060-4af7-9f2f-ddd6b9fb36fe)
 
 ## Multiplication alp 
-
 ```
 org 100h
+
 MOV AL,[4400H]
 MOV BL,[4401H]
 MUL BL
 MOV [4402H],AL
 MOV [4403H],AH
+
 ret
 ```
 
+
  ## Output  
-![image](https://github.com/user-attachments/assets/97b931a7-41a5-4259-91d8-91c14cd2819a)
+ ![image](https://github.com/user-attachments/assets/a4ab1965-cf44-4fe3-ba7f-109291ce0de3)
+
 
 
 ## Division alp 
-
 ```
-org100h
+org 100h
 MOV AL,[4300H]
 MOV BL,[4301H]
 DIV BL
 MOV [4302H],AL
+
 MOV [4303H],AH
-ret
 ```
+
 ## Output  
+![image](https://github.com/user-attachments/assets/f491aba6-6c60-4002-837d-e5b495b32797)
 
-![image](https://github.com/user-attachments/assets/d8226a98-93b4-4adc-8023-2a3c13d50ac0)
-
-## Logical operations
+## Logical Operation
 ```
 org 100h
-
 MOV AX,0A32H
 MOV BX,0B31H
 MOV SI,5000H
@@ -160,25 +172,18 @@ MOV [SI+4],AX
 MOV AX,0A32H
 NOT AX
 MOV [SI+6],AX
-
 ret
 ```
-
 ## Output
-
-
-
-![Screenshot 2025-03-10 142116](https://github.com/user-attachments/assets/80f34551-4dca-44da-b4c9-857ee62504cd)
+![image](https://github.com/user-attachments/assets/4cea140e-11c7-4bb1-9478-65e61cfadf18)
 
 
 
 
 ## Result :
- Thus the arithmetic operations and logical operations are executed successfully.
+ 
 
-
-
-
+Thus , the fundamental Arithmetic and Logical operations are excuted successfully.
 
 
 
